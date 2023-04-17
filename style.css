@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+body{
+    background: linear-gradient(to right, #013C4C, #FBA373);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 90vw;
+    height: 90vh;
+    background-image: url(imagens/background.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.356);
+}
+
+
+
+.clock-area{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    width: 550px;
+    background: transparent;
+    border-radius: 3px;
+    box-shadow: 5px 5px 25px 10px rgba(0, 0, 0 , 0.5);
+}
+
+.clock-area div{
+    height: 170px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    letter-spacing: 2px;
+}
+
+#hora{
+    font-size: 60px;
+}
+
+#minuto{
+    font-size: 60px;
+}
+
+#segundo{
+    font-size: 60px;
+}
+
+.date{
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 40px;
+    width: 300px;
+}
+
+.date div{
+    height: 170px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#dia{
+    font-size: 25px;
+}
+
+#mes{
+    font-size: 25px;
+}
+
+#ano{
+    font-size: 25px;
+}
+
